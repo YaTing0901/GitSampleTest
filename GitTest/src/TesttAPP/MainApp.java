@@ -7,6 +7,15 @@ public class MainApp {
 		System.out.println("第二個版本");
 		//我是組員我要修改
 		System.out.println("第三個版本");
+		Math cMath = new Math();
+		
+		System.out.println(cMath.add(3, 5));
 	}
 
+}
+class Math{
+	int add(int a ,int b) {
+		return a+b;
+	}
+	
 }
